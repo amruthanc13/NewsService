@@ -10,5 +10,4 @@ public interface UserRepository extends JpaRepository<Users, Long> {
 
     @Query("SELECT u from Users u WHERE u.emailId =:emailId")
     Users getUserByEmailId(String emailId);
-
 }

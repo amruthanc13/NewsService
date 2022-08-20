@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/roles")
 @Slf4j
+@CrossOrigin(origins = "http://localhost:4200")
 public class RolesController {
 
     @Autowired
